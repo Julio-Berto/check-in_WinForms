@@ -21,5 +21,39 @@ namespace check_in_WinForms
         {
 
         }
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCadastro formulario = new FrmCadastro();
+
+            formulario.MdiParent = this;
+
+            formulario.Show();
+        }
+
+        private void listagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmListagem formulario = new FrmListagem();
+
+            formulario.MdiParent = this;
+
+            formulario.Show();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void cadastroToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FrmCadastro formulario = new FrmCadastro();
+            formulario.MdiParent = this;
+            formulario.Show();
+        }
+
+        private void listagemToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
